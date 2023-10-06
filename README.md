@@ -27,13 +27,14 @@ To run this application locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/temperature-converter.git
+```
+https://github.com/sid346184/TemperatureConverter.git
+```
 Navigate to the project directory:
 
 bash
 Copy code
-cd temperature-converter
+cd TemperatureConverter
 Open the index.html file in your web browser.
 
 Usage
