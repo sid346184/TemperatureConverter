@@ -37,24 +37,7 @@ This web application allows you to easily convert temperatures between Celsius, 
    ```bash
    # Click the "Fork" button on the GitHub repository page
 Clone the Repository:
-
+```
 git clone https://github.com/sid346184/TemperatureConverter.git
-Create a New Branch:
-
-Make Changes:
-
-# Make desired code changes using your code editor
-Commit Changes:
-
-# Stage and commit your changes with a meaningful message
-git add .
-git commit -m "Add/Update: Description of your changes"
-Push Changes:
-
-# Push your branch to your forked repository on GitHub
-git push origin feature/your-feature-name
-Create a Pull Request:
-
-# Go to the original repository on GitHub and click "New Pull Request"
-# Select your branch as the base branch and provide a clear description
-Review and Collaborate:
+```
+Make Changes and create a pull request
