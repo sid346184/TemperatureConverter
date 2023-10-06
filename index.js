@@ -13,6 +13,21 @@ function noNumber() {
     kelvin.value = "";
 }
 
+let minusClickCount = 0;
+
+minus.addEventListener('click', () => {
+  minusClickCount++;
+  if (minusClickCount % 2 === 0) {
+    celcius.value = celcius.value.replace('-', '');
+    kelvin.value = kelvin.value.replace('-', '');
+    fahrenheit.value = fahrenheit.value.replace('-', '');
+  } else {
+    celcius.value = "-" + celcius.value;
+    kelvin.value = "-" + kelvin.value;
+    fahrenheit.value = "-" + fahrenheit.value;
+  }
+});
+
 celcius.addEventListener('input', function () {
     let cTemp = parseFloat(celcius.value);
     if (!isNaN(cTemp)) {
@@ -53,10 +68,6 @@ button.addEventListener('click',()=>{
     celcius.value="";
     kelvin.value="";
     fahrenheit.value="";
+    minusClickCount = 0;
 })
 
-minus.addEventListener('click', () => {
-    celcius.value = "-" + celcius.value;
-    kelvin.value = "-" + kelvin.value;
-    fahrenheit.value = "-" + fahrenheit.value;
-  });
