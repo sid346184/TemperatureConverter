@@ -1,45 +1,49 @@
 # Temperature Converter
 
-## Description
-
-This web application allows you to easily convert temperatures between Celsius, Fahrenheit, and Kelvin. It provides real-time conversion as you type, along with a reset button to clear all input fields. The user-friendly interface features a visually appealing design.
+A simple web-based temperature converter application that allows you to convert temperatures between Celsius, Fahrenheit, and Kelvin.
 
 ## Table of Contents
 
+- [Demo](#demo)
 - [Features](#features)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
+
+## Demo
+
+You can try out the Temperature Converter application by visiting the following link: [Demo](https://temperature-converter-lime.vercel.app/)
 
 ## Features
 
 - Convert temperatures between Celsius, Fahrenheit, and Kelvin.
-- Real-time conversion as you type.
-- Reset button to clear all input fields.
-- User-friendly interface with a visually appealing design.
+- User-friendly interface with input fields and a reset button.
+- Option to switch between positive and negative values with the "MINUS" button.
 
-## How to Use
+## Getting Started
 
-1. Open the web application in your browser.
-2. Enter a temperature value in the input field labeled "Celsius," "Fahrenheit," or "Kelvin."
-3. As you type, the equivalent temperatures in the other two scales will be calculated and displayed in real-time.
-4. To clear all input fields, click the "RESET" button.
+To run this application locally, follow these steps:
 
-## Technologies Used
+1. Clone this repository to your local machine:
 
-- HTML
-- CSS
-- JavaScript
-
-## How to Contribute (Clone the Repository)
-
-1. **Fork the Repository**:
    ```bash
-   # Click the "Fork" button on the GitHub repository page
+   git clone https://github.com/your-username/temperature-converter.git
+Navigate to the project directory:
 
-OR
-Clone the Repository:
-```
-git clone https://github.com/sid346184/TemperatureConverter.git
-```
-Make Changes and create a pull request
+bash
+Copy code
+cd temperature-converter
+Open the index.html file in your web browser.
+
+Usage
+Enter a temperature value in any of the input fields (Celsius, Fahrenheit, or Kelvin).
+
+The application will automatically update the other two fields with the converted temperatures.
+
+Use the "MINUS" button to toggle between positive and negative values.
+
+Click the "RESET" button to clear all input fields and reset the application.
+
+Contributing
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
