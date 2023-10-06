@@ -37,7 +37,7 @@ This web application allows you to easily convert temperatures between Celsius, 
    ```bash
    # Click the "Fork" button on the GitHub repository page
 
-   OR
+OR
 Clone the Repository:
 ```
 git clone https://github.com/sid346184/TemperatureConverter.git
