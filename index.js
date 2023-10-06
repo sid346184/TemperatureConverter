@@ -1,7 +1,8 @@
 let celcius = document.querySelector('#celcius');
 let fahrenheit = document.querySelector('#fahrenheit');
 let kelvin = document.querySelector('#kelvin');
-
+let button = document.querySelector('#button');
+let minus = document.querySelector('#minus'); 
 function roundNumber(number) {
     return Math.round(number * 100) / 100;
 }
@@ -53,3 +54,9 @@ button.addEventListener('click',()=>{
     kelvin.value="";
     fahrenheit.value="";
 })
+
+minus.addEventListener('click', () => {
+    celcius.value = "-" + celcius.value;
+    kelvin.value = "-" + kelvin.value;
+    fahrenheit.value = "-" + fahrenheit.value;
+  });
