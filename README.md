@@ -37,7 +37,7 @@ Copy code
 cd TemperatureConverter
 Open the index.html file in your web browser.
 
-Usage
+## Usage
 Enter a temperature value in any of the input fields (Celsius, Fahrenheit, or Kelvin).
 
 The application will automatically update the other two fields with the converted temperatures.
@@ -46,5 +46,5 @@ Use the "MINUS" button to toggle between positive and negative values.
 
 Click the "RESET" button to clear all input fields and reset the application.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
