@@ -8,6 +8,13 @@ function roundNumber(number) {
   return Math.round(number * 100) / 100;
 }
 
+function backspace(){
+    if(celcius.value===""){
+        minusClickCount = 0;
+        hasInput = false;
+    }
+}
+
 function noNumber() {
   celcius.value = "";
   fahrenheit.value = "";
@@ -18,6 +25,7 @@ let minusClickCount = 0;
 let hasInput = false;
 
 minus.addEventListener('click', () => {
+    backspace();
   if (!hasInput) {
     minusClickCount++;
     if (minusClickCount % 2 === 0) {
