@@ -33,9 +33,9 @@ minus.addEventListener('click', () => {
       kelvin.value = kelvin.value.replace('-', '');
       fahrenheit.value = fahrenheit.value.replace('-', '');
     } else {
-      celcius.value = "-" + celcius.value;
-      kelvin.value = "-" + kelvin.value;
-      fahrenheit.value = "-" + fahrenheit.value;
+      celcius.value="-"+celcius.value;
+      kelvin.value="-"+kelvin.value;
+      fahrenheit.value="-"+fahrenheit.value;
     }
   }
 });
@@ -44,10 +44,10 @@ celcius.addEventListener('input', function () {
   hasInput = true;
   let cTemp = parseFloat(celcius.value);
   if (!isNaN(cTemp)) {
-    let fTemp = (cTemp * (9 / 5)) + 32;
-    let kTemp = cTemp + 273.15;
-    fahrenheit.value = roundNumber(fTemp);
-    kelvin.value = roundNumber(kTemp);
+    let fTemp = (cTemp*(9/5)) +32;
+    let kTemp = cTemp+273.15;
+    fahrenheit.value=roundNumber(fTemp);
+    kelvin.value=roundNumber(kTemp);
   } else {
     noNumber();
   }
@@ -57,8 +57,8 @@ fahrenheit.addEventListener('input', function () {
   hasInput = true;
   let fTemp = parseFloat(fahrenheit.value);
   if (!isNaN(fTemp)) {
-    let cTemp = (fTemp - 32) * (5 / 9);
-    let kTemp = (fTemp - 32) * (5 / 9) + 273.15;
+    let cTemp = ((fTemp-32)*(5/9));
+    let kTemp = ((fTemp-32)*(5/9)+273.15);
     celcius.value = roundNumber(cTemp);
     kelvin.value = roundNumber(kTemp);
   } else {
@@ -70,10 +70,10 @@ kelvin.addEventListener('input', function () {
   hasInput = true;
   let kTemp = parseFloat(kelvin.value);
   if (!isNaN(kTemp)) {
-    let fTemp = (kTemp - 273.15) * (9 / 5) + 32;
-    let cTemp = kTemp - 273.15;
-    fahrenheit.value = roundNumber(fTemp);
-    celcius.value = roundNumber(cTemp);
+    let fTemp = ((kTemp-273.15)*(9/5)+32);
+    let cTemp = kTemp-273.15;
+    fahrenheit.value=roundNumber(fTemp);
+    celcius.value=roundNumber(cTemp);
   } else {
     noNumber();
   }
